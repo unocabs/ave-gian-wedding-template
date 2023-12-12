@@ -19,15 +19,16 @@ const Home: NextPage = () => {
         <link rel="icon" href="images/logo.png" />
       </Head>
 
-      <NavigationBar />
+
       <main>
         <Hero />
+          <NavigationBar />
         <About />
+          <Gallery />
+          <Invitation />
         <Wedding />
         <People />
-        <Gallery />
-          <Kids />
-        <Invitation />
+          {/*<Kids />*/}
         <Contact />
       </main>
 

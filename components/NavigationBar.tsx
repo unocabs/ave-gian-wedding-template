@@ -8,14 +8,8 @@ export default function NavigationBar() {
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
 
-        <a href="#" className="navbar-brand mx-auto mx-lg-0">
-          <span>Gian </span>
-          <i className="bi-heart brand-icon"></i>
-          <span> Ave</span>
-        </a>
-
         <Navbar.Collapse id="navbarNav">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav m-auto">
             <li className="nav-item">
               <NavLink className="nav-link click-scroll" href="#home">
                 Homepage
@@ -25,6 +19,18 @@ export default function NavigationBar() {
             <li className="nav-item">
               <NavLink className="nav-link click-scroll" href="#our_story">
                 Our Story
+              </NavLink>
+            </li>
+
+            <li className="nav-item">
+              <NavLink className="nav-link click-scroll" href="#gallery">
+                Gallery
+              </NavLink>
+            </li>
+
+            <li className="nav-item">
+              <NavLink className="nav-link click-scroll" href="#RSVP">
+                RSVP
               </NavLink>
             </li>
 
@@ -40,17 +46,6 @@ export default function NavigationBar() {
               </NavLink>
             </li>
 
-            <li className="nav-item">
-              <NavLink className="nav-link click-scroll" href="#gallery">
-                Gallery
-              </NavLink>
-            </li>
-
-            <li className="nav-item">
-              <NavLink className="nav-link click-scroll" href="#RSVP">
-                RSVP
-              </NavLink>
-            </li>
 
             <li className="nav-item">
               <NavLink className="nav-link click-scroll" href="#contact_us">

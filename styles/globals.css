@@ -26,7 +26,7 @@ https://www.tooplate.com/view/2131-wedding-lite
   --tertiary-color:               #FF6D6A;
 
   --body-font-family:             'Source Sans Pro', sans-serif;
-  --title-font-family:            'Amatic SC', cursive;
+  --title-font-family:            'Amatic SC';
 
   --h1-font-size:                 72px;
   --h2-font-size:                 48px;
@@ -34,7 +34,8 @@ https://www.tooplate.com/view/2131-wedding-lite
   --h4-font-size:                 32px;
   --h5-font-size:                 24px;
   --h6-font-size:                 22px;
-  --p-font-size:                  20px;
+  --p-font-size:                  19px;
+  --p-contact-font-size:          15px;
   --menu-font-size:               14px;
   --copyright-font-size:          16px;
 
@@ -49,12 +50,12 @@ https://www.tooplate.com/view/2131-wedding-lite
 }
 
 body {
-    /*background: var(--bs-black);*/
-    background-image: url('/images/bodybg.png'); /* Replace 'path-to-your-image.jpg' with the actual path to your image */
-    background-size: cover; /* This ensures the image covers the entire background */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-position: center; /* Centers the image */
-  background-attachment: fixed;
+    background: var(--white-color);
+  /*  background-image: url('/images/bodybg.png'); !* Replace 'path-to-your-image.jpg' with the actual path to your image *!*/
+  /*  background-size: cover; !* This ensures the image covers the entire background *!*/
+  /*  background-repeat: no-repeat; !* Prevents the image from repeating *!*/
+  /*  background-position: center; !* Centers the image *!*/
+  /*background-attachment: fixed;*/
     font-family: var(--body-font-family);
 }
 
@@ -92,6 +93,7 @@ h2 {
 
 h3 {
   font-size: var(--h3-font-size);
+  color: var(--title-color);
 }
 
 h4 {
@@ -110,6 +112,12 @@ h6 {
 p {
   color: var(--p-color);
   font-size: var(--p-font-size);
+  font-weight: var(--font-weight-light);
+}
+
+.p-contact {
+  color: var(--p-color);
+  font-size: var(--p-contact-font-size);
   font-weight: var(--font-weight-light);
 }
 
@@ -161,8 +169,8 @@ strong {
 }
 
 .section-padding {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .section-block {
@@ -181,7 +189,7 @@ strong {
   SECTION TITLE               
 -----------------------------------------*/
 .section-title{
-  font-family: fantasy;
+  font-family: Kailasa;
 }
 
 .section-title-wrap {
@@ -311,8 +319,8 @@ strong {
 .navbar {
   right: 0;
   left: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .is-sticky .navbar {
@@ -320,11 +328,11 @@ strong {
 }
 
 .navbar-bg {
-  /*background: var(--section-bg-color);*/
-  background-image: url('/images/navbg3.png'); /* Replace 'path-to-your-image.jpg' with the actual path to your image */
-  background-size: cover; /* This ensures the image covers the entire background */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-position: center; /* Centers the image */
+  background: var(--section-bg-color);
+  /*background-image: url('/images/navbg3.png'); !* Replace 'path-to-your-image.jpg' with the actual path to your image *!*/
+  /*background-size: cover; !* This ensures the image covers the entire background *!*/
+  /*background-repeat: no-repeat; !* Prevents the image from repeating *!*/
+  /*background-position: center; !* Centers the image *!*/
 }
 
 .navbar-brand {
@@ -435,35 +443,34 @@ strong {
 /*---------------------------------------
   HERO              
 -----------------------------------------*/
-@media (max-width: 985px) {
-  .hero-container {
-    background-image: url('/images/hero.jpeg') !important;
-    background-size: cover !important;
-  }
-
-
-}
+/*@media (max-width: 985px) {*/
+/*  .hero-container {*/
+/*    background:linear-gradient(rgba(153,153,153, 0.2), rgba(153,153,153, 0.2)), url('/images/hero.jpeg') !important;*/
+/*    background-size: cover !important;*/
+/*    background-attachment: fixed;*/
+/*  }*/
+/*}*/
 .hero-container {
   background-color: white;
-  background-image: url('/images/hero.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
   border-radius: var(--border-radius-small);
   position: relative;
   overflow: hidden;
   padding: 50px;
-  height: calc(90vh - 98px);
+  height: calc(100vh - 98px);
+  background:linear-gradient(rgba(153,153,153, 0.2), rgba(153,153,153, 0.2)),  url('/images/hero.jpeg'); /* Replace 'path-to-your-image.jpg' with the actual path to your image */
+  background-size: cover !important; /* This ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed;
 }
 
 .hero-container h3 {
   /*color: black !important;*/
-  opacity: 0.75;
   color: white;
 }
 
 .hero-container h1 {
   /*color: black*/
-  opacity: 0.75;
   color: white;
 }
 
@@ -713,25 +720,13 @@ strong {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-image: url('/images/gi-ave/umbri.jpeg');
+  background:linear-gradient(rgba(153,153,153, 0.2), rgba(153,153,153, 0.2)), url('/images/gi-ave/umbri.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 150px;
   text-align: center;
   position: relative;
-}
-
-.site-footer::after {
-  content: "";
-  background: var(--primary-color);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.25;
-  pointer-events: none;
 }
 
 .site-footer .navbar-brand {
@@ -922,12 +917,12 @@ strong {
   }
 }
 
-@media screen and (max-width: 575px) {
-  .hero-container {
-    margin-right: 12px;
-    margin-left: 12px;
-  }
-}
+/*@media screen and (max-width: 575px) {*/
+/*  .hero-container {*/
+/*    margin-right: 12px;*/
+/*    margin-left: 12px;*/
+/*  }*/
+/*}*/
 
 @media screen and (max-width: 480px) {
   h1 {

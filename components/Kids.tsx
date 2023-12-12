@@ -10,11 +10,28 @@ export default function Kids() {
         <div className="row">
           <div className="col-lg-12 col-12">
             <div className="section-title-wrap mb-5">
-              <h2 className="section-title">The Cuties </h2>
-
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <h2 className="rsvp-section-title">The Cuties</h2>
               <div className="section-title-bottom">
                 <span className="section-title-line"></span>
-                <i className="section-title-icon bi-heart-fill"></i>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                {/*<i className="section-title-icon bi-heart-fill"></i>*/}
                 <span className="section-title-line"></span>
               </div>
             </div>
@@ -22,7 +39,7 @@ export default function Kids() {
 
           <div className="col-lg-4 col-md-6 col-12 d-flex flex-column mb-4 mb-lg-0 mb-md-0">
             <div className="image-hover-thumb">
-              <img src="images/thirdy.jpeg" className="img-fluid" alt="" />
+              <img src="images/thirdy.jpeg" className="img-fluid" alt=""/>
             </div>
 
             <div className="section-block">
@@ -36,7 +53,7 @@ export default function Kids() {
 
           <div className="col-lg-4 col-md-6 col-12 d-flex flex-column mb-4 mb-lg-0 mb-md-0">
             <div className="image-hover-thumb">
-              <img src="images/franco.jpeg" className="img-fluid" alt="" />
+              <img src="images/franco.jpeg" className="img-fluid" alt=""/>
             </div>
 
             <div className="section-block">
@@ -50,7 +67,7 @@ export default function Kids() {
 
           <div className="col-lg-4 col-md-6 col-12 d-flex flex-column mb-4 mb-lg-0 mb-md-0">
             <div className="image-hover-thumb">
-              <img src="images/kelly.jpeg" className="img-fluid" alt="" />
+              <img src="images/kelly.jpeg" className="img-fluid" alt=""/>
             </div>
 
             <div className="section-block">
@@ -60,8 +77,9 @@ export default function Kids() {
                 Flower Girl
               </p>
             </div>
-          </div><div className="col-lg-4 col-md-6 col-12 d-flex flex-column mb-4 mb-lg-0 mb-md-0">
-          <div className="image-hover-thumb">
+          </div>
+          <div className="col-lg-4 col-md-6 col-12 d-flex flex-column mb-4 mb-lg-0 mb-md-0">
+            <div className="image-hover-thumb">
             <img src="images/athena.jpeg" className="img-fluid" alt="" />
           </div>
 

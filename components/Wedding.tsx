@@ -10,11 +10,28 @@ export default function Wedding() {
         <div className="row">
           <div className="col-lg-12 col-12">
             <div className="section-title-wrap mb-5">
-              <h2 className="section-title">The Wedding</h2>
-
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <h3 className="section-title">THE WEDDING</h3>
               <div className="section-title-bottom">
                 <span className="section-title-line"></span>
-                <i className="section-title-icon bi-heart-fill"></i>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                {/*<i className="section-title-icon bi-heart-fill"></i>*/}
                 <span className="section-title-line"></span>
               </div>
             </div>
@@ -26,7 +43,7 @@ export default function Wedding() {
             </div>
 
             <div className="section-block">
-              <h3 className="my-3">Wedding Ceremony</h3>
+              <h4 className="my-3">Wedding Ceremony</h4>
 
               <p className="mb-2">
                 <i className="bi-geo-alt me-1"></i>
@@ -46,7 +63,7 @@ export default function Wedding() {
             </div>
 
             <div className="section-block">
-              <h3 className="my-3">The Reception</h3>
+              <h4 className="my-3">The Reception</h4>
 
               <p className="mb-2">
                 <i className="bi-geo-alt me-1"></i>
@@ -69,7 +86,7 @@ export default function Wedding() {
             ></iframe>
 
             <div className="section-block">
-              <h3 className="my-3">Location</h3>
+              <h4 className="my-3">Location</h4>
 
               <p className="mb-2">
                 <i className="bi-geo-alt me-1"></i>

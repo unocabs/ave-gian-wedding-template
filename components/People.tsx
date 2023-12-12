@@ -9,11 +9,28 @@ export default function People() {
         <div className="row">
           <div className="col-lg-12 col-12">
             <div className="section-title-wrap mb-5">
-              <h2 className="section-title">Groomsmen & Bridesmaid</h2>
-
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <span className="section-title-line mb-4"></span>
+              <h3 className="section-title">GROOMSMEN & BRIDESMAIDS</h3>
               <div className="section-title-bottom">
                 <span className="section-title-line"></span>
-                <i className="section-title-icon bi-heart-fill"></i>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                <span className="section-title-line"></span>
+                {/*<i className="section-title-icon bi-heart-fill"></i>*/}
                 <span className="section-title-line"></span>
               </div>
             </div>

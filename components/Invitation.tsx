@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Form } from "react-bootstrap";
 
 export default function Invitation() {
@@ -43,17 +43,34 @@ export default function Invitation() {
           <div className="col-lg-8 col-12 mx-auto">
             <div className="rsvp-form-wrap">
               <div className="section-title-wrap mb-5">
-                <h2 className="rsvp-section-title">Invitation</h2>
-
+                <span className="section-title-line mb-4"></span>
+                <span className="section-title-line mb-4"></span>
+                <span className="section-title-line mb-4"></span>
+                <span className="section-title-line mb-4"></span>
+                <span className="section-title-line mb-4"></span>
+                <span className="section-title-line mb-4"></span>
+                <span className="section-title-line mb-4"></span>
+                <span className="section-title-line mb-4"></span>
+                <span className="section-title-line mb-4"></span>
+                <span className="section-title-line mb-4"></span>
+                <h3 className="rsvp-section-title">INVITATION</h3>
                 <div className="section-title-bottom">
                   <span className="section-title-line"></span>
-                  <i className="section-title-icon bi-heart-fill"></i>
+                  <span className="section-title-line"></span>
+                  <span className="section-title-line"></span>
+                  <span className="section-title-line"></span>
+                  <span className="section-title-line"></span>
+                  <span className="section-title-line"></span>
+                  <span className="section-title-line"></span>
+                  <span className="section-title-line"></span>
+                  <span className="section-title-line"></span>
+                  {/*<i className="section-title-icon bi-heart-fill"></i>*/}
                   <span className="section-title-line"></span>
                 </div>
               </div>
 
               <h5 className="question mb-4">
-                We look forward to seeing you!&nbsp;
+              We look forward to seeing you!&nbsp;
                 <span className="text-muted">
                   The Wedding day is on October 18, 2023
                 </span>
@@ -71,9 +88,9 @@ export default function Invitation() {
                   <div className="col-lg-3 col-5 pt-3 mx-auto">
                     <button type="submit" className="form-control">
                       <Link
-                        className="text-white"
-                        target="_blank"
-                        href="https://docs.google.com/spreadsheets/d/1FFSnKsKBAX309mh1IFtpwRu9fG84md2ln43HePzNgB4/edit#gid=1798866779"
+                          className="text-white"
+                          target="_blank"
+                          href="https://docs.google.com/spreadsheets/d/1FFSnKsKBAX309mh1IFtpwRu9fG84md2ln43HePzNgB4/edit#gid=1798866779"
                       >
                         Will you attend? Click here!
                       </Link>
