@@ -22,13 +22,13 @@ const Home: NextPage = () => {
 
       <main>
         <Hero />
-          <NavigationBar />
+        <NavigationBar />
         <About />
-          <Gallery />
-          <Invitation />
+        <Gallery />
+        <Invitation />
         <Wedding />
         <People />
-          {/*<Kids />*/}
+        {/*<Kids />*/}
         <Contact />
       </main>
 
