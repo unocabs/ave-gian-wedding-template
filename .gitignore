@@ -1442,3 +1442,8 @@
 .next/static/webpack/webpack.ff159ad15b68ee1f.hot-update.js
 .next/static/webpack/webpack.ff5a5b8bb4ca24c2.hot-update.js
 .next/trace
+*.json
+*.pack
+*.old
+*.js
+*.cmd
