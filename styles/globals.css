@@ -457,7 +457,7 @@ strong {
   overflow: hidden;
   padding: 50px;
   height: calc(100vh - 98px);
-  background:linear-gradient(rgba(153,153,153, 0.2), rgba(153,153,153, 0.2)),  url('/images/hero.jpeg'); /* Replace 'path-to-your-image.jpg' with the actual path to your image */
+  background:linear-gradient(rgba(153,153,153, 0.2), rgba(153,153,153, 0.2)),  url('/images/gi-ave/elevpeace.jpeg'); /* Replace 'path-to-your-image.jpg' with the actual path to your image */
   background-size: cover !important; /* This ensures the image covers the entire background */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center; /* Centers the image */
