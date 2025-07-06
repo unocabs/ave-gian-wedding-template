@@ -461,7 +461,7 @@ strong {
   background-size: cover !important; /* This ensures the image covers the entire background */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center; /* Centers the image */
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .hero-container h3 {
@@ -776,7 +776,7 @@ strong {
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .hero-container {
     background-size: contain;
     background-position: bottom;
@@ -787,7 +787,7 @@ strong {
   .hero-container {
     height: inherit;
   }
-}
+} */
 
 @media screen and (min-width: 992px) {
   .the-wedding-section .image-hover-thumb,
@@ -852,10 +852,10 @@ strong {
     padding-bottom: 0;
   }
 
-  .hero-container {
+  /* .hero-container {
     padding: 40px;
     min-height: 650px;
-  }
+  } */
 
   .about-info-wrap {
     padding: 10px 20px 40px 20px;
@@ -945,7 +945,7 @@ strong {
     font-size: 20px;
   }
 
-  .hero-container {
+  /* .hero-container {
     padding: 30px;
-  }
+  } */
 }
