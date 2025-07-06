@@ -461,7 +461,7 @@ strong {
   background-size: cover !important; /* This ensures the image covers the entire background */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center; /* Centers the image */
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 .hero-container h3 {
@@ -776,14 +776,14 @@ strong {
 /*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
-/* @media screen and (max-width: 1200px) {
+@media (max-width: 991px) {
   .hero-container {
     background-size: contain;
     background-position: bottom;
   }
 }
 
-@media only screen and (min-width: 580px) and (max-width: 1170px) {
+/*@media only screen and (min-width: 580px) and (max-width: 1170px) {
   .hero-container {
     height: inherit;
   }
