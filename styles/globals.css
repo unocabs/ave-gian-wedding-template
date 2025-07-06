@@ -778,8 +778,7 @@ strong {
 -----------------------------------------*/
 @media (max-width: 991px) {
   .hero-container {
-    background-size: contain;
-    background-position: bottom;
+    background-attachment: scroll;
   }
 }
 
