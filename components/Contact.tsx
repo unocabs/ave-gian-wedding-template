@@ -38,9 +38,12 @@ export default function Contact() {
           </div>
 
           <div className="col-lg-4 col-md-6 col-12">
-            <h5 className="mb-4">Visit Us</h5>
+            <h5 className="mb-4">Your own wedding website?</h5>
             <p className="p-contact">
-              Mansfield Residences, Angeles City, Pampanga
+              Yes, you and your partner can get your own website!
+            </p>
+            <p className="p-contact">
+              Send me a message. Thank you! 
             </p>
           </div>
 

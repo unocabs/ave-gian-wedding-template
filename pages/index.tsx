@@ -24,8 +24,8 @@ const Home: NextPage = () => {
         <Hero />
         <NavigationBar />
         <About />
-        <Gallery />
         <Invitation />
+        <Gallery />
         <Wedding />
         <People />
         {/*<Kids />*/}
