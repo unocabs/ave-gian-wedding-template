@@ -461,7 +461,7 @@ strong {
   background-size: cover !important; /* This ensures the image covers the entire background */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center; /* Centers the image */
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .hero-container h3 {
